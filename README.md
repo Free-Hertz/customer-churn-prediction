@@ -45,9 +45,9 @@ Churn Label (1 = Churn, 0 = No Churn)
 Balanced Logistic Regression was selected as the final model due to it's improved recall for churned customers.
 
 ## Results
-Final Model: Balanced Logistic Regression
-Accuracy ~ 76%
-Recall (Churn Class) ~ 64%
+- Final Model: Balanced Logistic Regression
+- Accuracy ~ 76%
+- Recall (Churn Class) ~ 64%
 
 The model prioritizes identifying potential churners, which aligns with business goals.
 
@@ -74,11 +74,11 @@ Install required libraries
 Run all cells from top to bottom
 
 ## Future Improvements
-Hyperparameter tuning
-Try advanced models (XGBoost, LightGBM)
-More feature engineering
-Outlier treatment
-Model deployment as a web application
+- Hyperparameter tuning
+- Try advanced models (XGBoost, LightGBM)
+- More feature engineering
+- Outlier treatment
+- Model deployment as a web application
 
 ## Author
 Harbaz Singh
