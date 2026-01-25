@@ -19,21 +19,21 @@ Service usage (Internet Service, Streaming Services, Charges, etc.)
 1. Data Loading & Inspection
 2. Exploratory Data Analysis (EDA)
 3. Data Cleaning
-    -Dropped leakage and irrelevant columns
-    -Handled missing values
+    - Dropped leakage and irrelevant columns
+    - Handled missing values
 4. Feature Encoding
-    -Label encoding for target
-    -One-hot encoding for categorical features
+    - Label encoding for target
+    - One-hot encoding for categorical features
 5. Train-Test Split (Stratified)
 6. Feature Scaling
 7. Model Training
-    -Logistic Regression (baseline)
-    -Random Forest
-    -Logistic Regression with class weighting
+    - Logistic Regression (baseline)
+    - Random Forest
+    - Logistic Regression with class weighting
 8. Model Evaluation
-    -Accuracy
-    -Precision, Recall, F1-score
-    -Confusion Matrix
+    - Accuracy
+    - Precision, Recall, F1-score
+    - Confusion Matrix
 9. Feature Importance Analysis
 10. Final Model Selection
 
