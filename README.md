@@ -11,9 +11,9 @@ The dataset contains customer demographics, account information, and service usa
 Churn Label (1 = Churn, 0 = No Churn)
 
 ## Features include:
-Demographics (Age, Gender, Dependents, etc.)
-Account details (Contract Type, Payment Method, Tenure, etc.)
-Service usage (Internet Service, Streaming Services, Charges, etc.)
+- Demographics (Age, Gender, Dependents, etc.)
+- Account details (Contract Type, Payment Method, Tenure, etc.)
+- Service usage (Internet Service, Streaming Services, Charges, etc.)
 
 ## Approach
 1. Data Loading & Inspection
@@ -38,9 +38,9 @@ Service usage (Internet Service, Streaming Services, Charges, etc.)
 10. Final Model Selection
 
 ## Models Used
--Logistic Regression
--Random Forest Classifier
--Logistic Regression with class_weight='balanced'
+- Logistic Regression
+- Random Forest Classifier
+- Logistic Regression with class_weight='balanced'
 
 Balanced Logistic Regression was selected as the final model due to it's improved recall for churned customers.
 
@@ -52,18 +52,18 @@ Recall (Churn Class) ~ 64%
 The model prioritizes identifying potential churners, which aligns with business goals.
 
 ## Key Insights
--Customers with short tenure are more likely to churn
--Month-to-month contracts show higher churn rates
--Longer contracts and bundled services reduce churn probability
+- Customers with short tenure are more likely to churn
+- Month-to-month contracts show higher churn rates
+- Longer contracts and bundled services reduce churn probability
 
 ## Technologies Used
--Python
--Pandas
--NumPy
--Scikit-learn
--Matplotlib
--Seaborn
--Jupyter Notebook
+- Python
+- Pandas
+- NumPy
+- Scikit-learn
+- Matplotlib
+- Seaborn
+- Jupyter Notebook
 
 ## How to Run
 Clone the repository
